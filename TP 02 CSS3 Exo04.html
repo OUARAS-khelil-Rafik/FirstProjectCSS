@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="TP 02 CSS3 Exo04" /> <meta name="keywords" content="HTML5, CSS3, JavaScript, PHP" />
+		<meta name="author" content="Logan Ouaras" />
+		<title>
+			TP 02 CSS3 Exo 04
+		</title>
+		<style>
+			hgroup{
+				border: solid #FF00A4;
+				margin-left: 30px;
+				margin-bottom: 50px;
+				margin-top: 30px;
+				text-align: center;
+				background: #FF00A4;
+				box-shadow: 5px 5px 100px;
+			}
+			nav{
+				position: absolute;
+				height: 190px;
+				width: 10%;
+				background-color: orange;
+				border: 4px ridge red;
+				border-radius: 40px;
+				padding: 1em;
+				top: 13px;
+				right: 20px;
+			}
+			.sec1{
+				padding: 0.5em;
+				border: solid 1px;
+				border-color: red;
+				background-color: yellow;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				width: 70em;
+				height: 10em;
+			}
+			.sec1:hover{
+				 overflow: visible;
+			}
+			.sec2{
+				padding: 0.5em;
+				border: solid 1px;
+				border-color: red;
+				background-color: yellow;
+				overflow: auto;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				width: 70em;
+				height: 10em;
+			}
+			.sec3{
+				padding: 0.5em;
+				border: solid 1px;
+				border-color: red;
+				background-color: yellow;
+				overflow-wrap: no;
+				white-space: nowrap;
+				width: 70em;
+				height: 10em;
+				text-overflow: ellipsis;
+			}
+			footer {
+			  background-color: #00BFFF;
+			  padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<a name="header">
+				<hgroup>
+					<h1>Test de mise en forme des sections</h1>
+					<h2>presentation HTML 5.0</h2>
+				</hgroup>
+			</a>
+		</header>
+		
+		<nav>
+			<a href="#ChapitreI">CHAPITRE I :</a>
+			<p>HTML 5</p>
+			<a href="#ChapitreII">CHAPITRE II :</a>
+			<p>CSS 3</p>
+			<a href="#ChapitreIII">CHAPITRE III :</a>
+			<p>PHP 5</p>
+		</nav>
+		<section class="sec1">
+			<h1 id="ChapitreI">Chapitre I</h1>
+			<p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+		</section>
+		<section class="sec2">
+			<h1 id="ChapitreII">Chapitre II</h1>
+			<p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+		</section>
+		<section class="sec3">
+			<h1 id="ChapitreIII">Chapitre III</h1>
+			<p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+		</section>
+		<footer>
+			<a href="#header">Page HTML valide !</a>
+		</footer>
+	</body>
+</html>
